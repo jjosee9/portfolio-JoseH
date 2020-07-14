@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <section id="contact-form" >
             <div className="container">
-                <h1 className="L-heading">Contact Me!</h1>
-                <p>Please fill out form below to contact us</p>
+                <h1 className="contact-header">Contact Me!</h1>
+                <p>Please fill out form below to connect with me</p>
                 <form action="destination.php">
                     <div className="form-group">
                         <label >Name</label>

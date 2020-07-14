@@ -11,7 +11,7 @@ import ticTacToe from '../../Images/tictactoe.png'
 const Projects = () => {
     return (
         <div>
-            <h1>Projects Page</h1>
+            <h1 className="projects-header">My Projects</h1>
             <div className="container-projects">
                 <div>
                     <img src={ecommerce} alt="Ecommerce project" />
