@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Home from './Components/Home/Home'
+import NavBar from './Components/Navbar/Navbar'
+import Contact from './Components/Contact/Contact';
+import Projects from './Components/Projects/Projects';
+import Footer from './Components/Footer/Footer';
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+
+        <NavBar />
+        <Switch>   {/* A <Switch> looks through its children <Route>s and renders the first one that matches the current URL. */}
+          <Route path="/" exact><Home /></Route>
+          <Route path="/projects"  ><Projects /></Route> {/*does the same as line after */}
+          <Route path="/contact"><Contact /></Route>
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
+
 }
 
 export default App;
+
+//npm install react-router-dom
