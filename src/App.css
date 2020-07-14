@@ -187,3 +187,11 @@ a {
   background: #f4f4f4;
   color: #333;
 }
+
+/* Resume */
+.resume-img {
+  border: solid lightblue;
+  width: 800px;
+  height: 1000px;
+  margin-left: 300px;
+}
