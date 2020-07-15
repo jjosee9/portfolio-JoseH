@@ -137,6 +137,15 @@ a {
    font-size:20px;
  }
 
+/* Resume */
+.resume-img {
+  border: solid #00bcd4;
+  width: 800px;
+  height: 1000px;
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
  /* Contact Page */
 
@@ -150,7 +159,7 @@ a {
 .container{
   background-color: lightblue;
   width: 500px;
-  height:600px;
+  height:640px;
   /* padding-left: 105px; */
   margin:30px;
 }
@@ -211,15 +220,7 @@ a {
   color: lightslategray;
 }
 
-/* Resume */
-.resume-img {
-  border: solid #00bcd4;
-  width: 800px;
-  height: 1000px;
-  margin-left: 300px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 
 
 
