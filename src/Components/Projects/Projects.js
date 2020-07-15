@@ -55,12 +55,12 @@ const Projects = () => {
                     <p>This is my first project created by me for the admission into Road to Hire</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://gatewayprojectjoseh.netlify.app/" class="nav-link" >View</a>
                 </div>
-                <div>
+                {/* <div>
                     <img src={gateway} alt="gateway revised" />
                     <h2>Weather App</h2>
                     <p>This is my first project created by me for the admission into Road to Hire</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://gatewayprojectjoseh.netlify.app/" class="nav-link" >View</a>
-                </div>
+                </div> */}
                 <div>
                     <img src={gitHubLocator} alt="Github Locator" />
                     <h2>Github Page Locator App</h2>
