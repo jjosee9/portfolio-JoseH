@@ -6,17 +6,18 @@ const Home = () => {
         <>
 
             <div id="home-container">
-
+{/* 
                 <section>
                     <div class="title">
                         <h3>Welcome to my Portfolio</h3>
                         <h1>JOSE HERNANDEZ</h1>
                     </div>
-                </section>
+                </section> */}
 
                 <section>
                     <div class="about">
-                        <h2>About me</h2>
+                        <h2>Welcome to my portfolio</h2>
+                        <h2>Jose Hernandez</h2>
                     </div>
                 </section>
 
