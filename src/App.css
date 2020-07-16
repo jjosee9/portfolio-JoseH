@@ -282,6 +282,11 @@ a {
   text-align:justify;
 }
 
+#home-container .block img{
+  height: 50px;
+  
+}
+
 /* Home Section - Parallax */
 #home-container .about {
   padding-top: 200px;
