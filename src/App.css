@@ -19,9 +19,9 @@ a {
   /* color: #fff; 
 } */
 
- #navbar h1 {    /*this is for the logo */
+ #navbar .logo {    /*this is for the logo */
   float: left;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;  
 }  
 
@@ -36,7 +36,7 @@ a {
 }
 
 #navbar ul li a {
-  display: block;
+  display:block;
   padding: 20px;
   text-align: center;
 }
@@ -101,6 +101,7 @@ a {
   height:2600px;
   justify-content: center; /*center items */
   font-family:'Oswald', sans-serif;
+  align-content: flex-start;  /*items packed to the start of the container*/
  }
 
  .container-projects div{
@@ -111,7 +112,11 @@ a {
   /* line-height: px; */
   font-size: 30px;
   height: 400px;
-  
+ }
+
+ .container-projects div:hover{
+  /* opacity: 0.7; */
+  background-color:#00bcd4;
  }
 
  .container-projects img{
@@ -178,7 +183,7 @@ a {
 }
 
 #contact-form label {
-  display: block;
+  display:block;
   margin-bottom: 5px;
 }
 
@@ -224,34 +229,17 @@ a {
 
 
 
-
+/* -----Home----- */
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
 
-
-/* Typography */
-#home-container h1 {
-  font-family:'Oswald', sans-serif;
-  font-size:80px;
-  font-weight:400;
-  color:black;
-  padding:0; margin:0;
-}
-
 #home-container h2 {
   font-family:'Oswald', sans-serif;
   font-size:70px; letter-spacing:10px; text-align:center;
-  color:black; font-weight:400; text-transform:uppercase;
+  color:#00bcd4; font-weight:400; 
   z-index:10;
-  /* opacity:.9; */
-}
-
-#home-container h3 {
-  font-family:'Oswald', sans-serif;
-  font-size:20px; line-height:0;
-  font-weight:400; letter-spacing:8px;
-  text-transform: uppercase; color:black;
+  
 }
 
 #home-container p {
@@ -261,49 +249,35 @@ a {
   line-height:28px;
 }
 
-/* Home Section - Title */
-#home-container .title {
-  background: white; 
-  padding: 60px;
-  margin:0 auto;
-  text-align:center;
-}
-
-#home-container .title h1 {
-  font-size:40px;
-   letter-spacing:8px;
-  }
-
-/* Home Section - Block */
-#home-container .block {
+/* Home Section - about */
+#home-container .about {
   background: white;
   padding: 60px;
-  /* width:820px; margin:0 auto; */
-  width:100vh; margin:0 auto;
+  width:820px; margin:0 auto;
   text-align:justify;
-  
+  align-self: flex-start;
 }
 
-.block img{
+.about img{
   height: 300px;
   margin-left: 280px;
 }
 
-/* Home Section - Parallax */
-#home-container .about {
-  padding-top: 200px;
-  padding-bottom: 200px;
+/* Home Section - hero-container*/
+#home-container .hero-container {
+  /* padding-top: 200px; */
+  padding-bottom: 400px;
   overflow: hidden;
   position: relative;
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1517162024945-595ae6bca1a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;
 }
 
-.transbox{
+div.transbox{
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: .7;
 }
 
 /* Home Extras */
@@ -316,15 +290,15 @@ a {
 
 /* Media Queries */
 @media screen and (max-width: 959px) and (min-width: 768px) {
-  #home-container .block {padding: 40px; width:620px;}
+  #home-container .about {padding: 40px; width:620px;}
 }
 @media screen and (max-width: 767px) {
-  #home-container .block {padding: 30px; width:420px;}
+  #home-container .about {padding: 30px; width:420px;}
   #home-container h2 {font-size:30px;}
-  #home-container .block {padding: 30px;}
+  #home-container .about {padding: 30px;}
   #home-container .parallax-one, #home-container .parallax-two, #home-container .parallax-three {padding-top:100px; padding-bottom:100px;}
 }
 @media screen and (max-width: 479px) {
-  #home-container .block {padding: 30px 15px; width:290px;}
+  #home-container .about {padding: 30px 15px; width:290px;}
 }
 

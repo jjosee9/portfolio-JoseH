@@ -6,7 +6,7 @@ import guessingGame from '../../Images/guessing-game.png';
 import responsiveNavBar from '../../Images/responsive-navbar.png';
 import gitHubLocator from '../../Images/github-locator.png';
 import toDoList from '../../Images/to-do-list.png';
-import ticTacToe from '../../Images/tictactoe.png'
+import ticTacToe from '../../Images/tictactoe.png';
 
 const Projects = () => {
     return (

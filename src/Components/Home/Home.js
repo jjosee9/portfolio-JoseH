@@ -6,25 +6,18 @@ const Home = () => {
         <>
 
             <div id="home-container">
-                {/* 
-                <section>
-                    <div class="title">
-                        <h3>Welcome to my Portfolio</h3>
-                        <h1>JOSE HERNANDEZ</h1>
-                    </div>
-                </section> */}
 
                 <section>
-                    <div class="about">
+                    <div class="hero-container">
                         <div className="transbox">
                             <h2>Welcome to my portfolio</h2>
-                            <h2>Jose Hernandez</h2>
+                            <h2>JOSE HERNANDEZ</h2>
                         </div>
                     </div>
                 </section>
 
                 <section>
-                    <div class="block">
+                    <div class="about">
                         <img src={joseh} alt="profile" />
                         <p>I am a passionate recent gradute of the intense 6 month Road to Hire program.
                            Through Road to Hire I have aquired both technical and professional skills.
