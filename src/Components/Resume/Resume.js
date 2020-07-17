@@ -6,7 +6,7 @@ const Resume = () => {
     return (
         <>
             <img className="resume-img" src={resumeJH} alt="Resume" />
-            <a href={require("../../Images/resume-j.png")} download="myFile">
+            <a href={require("../../Images/resume-j.png")} download="Resume-Jose-Hernandez">
                 <button className="download-btn"><i class="fa fa-download"></i>Download</button>
 
                 </a>
