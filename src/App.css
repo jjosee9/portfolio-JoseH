@@ -222,14 +222,14 @@ a {
 }
 
 .btn {
-  display: inline-block;
+  display:block;
   font-size: 18px;
   color: black;
   background: white;
   padding: 13px 20px;
   border: none;
   cursor: pointer;
-  margin-left:200px;
+  margin:0 auto;
 }
 
 .btn:hover {
