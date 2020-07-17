@@ -1,5 +1,5 @@
 import React from 'react'
-import resumeJH from '../../Images/resume-jh.png'
+import resumeJH from '../../Images/resume-j.png'
 
 
 const Resume = () => {

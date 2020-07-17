@@ -98,7 +98,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  height:2600px;
+  height:2150px;
   justify-content: center; /*center items */
   font-family:'Oswald', sans-serif;
   align-content: flex-start;  /*items packed to the start of the container*/
@@ -137,9 +137,23 @@ a {
 
  }
 
- .container-projects a{
+ /* .container-projects a{
    color: red;
    font-size:20px;
+ } */
+
+ .container-projects .projects-btn {
+  font-size: 15px;
+  color: #fff;
+  background: lightslategray;
+  padding: 6px 15px;
+  border: none;
+  cursor: pointer;
+  margin-left:20px;
+ }
+ .container-projects .projects-btn:hover{
+   background-color: white;
+   color: black;
  }
 
 /* Resume */
@@ -220,10 +234,6 @@ a {
   color: #333;
 }
 
-.btn-light {
-  background: #f4f4f4;
-  color: lightslategray;
-}
 
 
 
@@ -237,7 +247,7 @@ a {
 #home-container h2 {
   font-family:'Oswald', sans-serif;
   font-size:70px; letter-spacing:10px; text-align:center;
-  color:#00bcd4; font-weight:400; 
+  color:black; font-weight:400; 
   z-index:10;
   
 }
