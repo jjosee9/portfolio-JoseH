@@ -58,15 +58,15 @@ const Projects = () => {
                     <img src={gateway} alt="Pokemon app" />
                     <h2>Pokemon Inquirier App</h2>
                     <p>This will be the pokemon app</p>
-                    <a target="_blank" rel="noopener noreferrer" href=""><button className="projects-btn">View</button></a>
-                    <a target="_blank" rel="noopener noreferrer" href=""><button className="projects-btn">Github</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://git-hub-cards-joseh.netlify.app/"><button className="projects-btn">View</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/git-hub-cards"><button className="projects-btn">Github</button></a>
                 </div>
                 <div>
                     <img src={gateway} alt="weather app" />
                     <h2>Weather App</h2>
                     <p>This will be the weather app</p>
-                    <a target="_blank" rel="noopener noreferrer" href=""><button className="projects-btn">View</button></a>
-                    <a target="_blank" rel="noopener noreferrer" href=""><button className="projects-btn">Github</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://git-hub-cards-joseh.netlify.app/"><button className="projects-btn">View</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/git-hub-cards"><button className="projects-btn">Github</button></a>
                     
                 </div>
                 <div>
