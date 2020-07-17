@@ -1,5 +1,5 @@
 body {
-  font-family:'Oswald', sans-serif
+  /* font-family:'Oswald', sans-serif */
 }
 /* Nav Bar */
 
@@ -83,19 +83,22 @@ a {
 
  /* PROJECTS */
  .projects-header{
+   display: flex;
+   justify-content: center;  /*aligns center left/right */
+   align-items: center;  /*aligns center between top/bottom*/
    background-color: white;
-   margin:0px;
-   padding-left: 550px;
    font-size:60px;
+   height: 200px;
+   margin: 0;
    font-family:'Oswald', sans-serif; font-weight:400;color:black; 
  }
 
  .container-projects{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /*center items left/right */
   background-color: white;
   height:2150px;
-  justify-content: center; /*center items */
   font-family:'Oswald', sans-serif;
   align-content: flex-start;  /*items packed to the start of the container*/
  }
@@ -116,21 +119,21 @@ a {
  }
 
  .container-projects img{
-   width: 300px;
+   width: 250px;
    padding-top: 60px;
  }
 
  .container-projects h2{
    margin: 0;
    font-weight: normal;
+   font-size: 35px;
  }
 
  .container-projects p{
-   margin: 0;
-   width: 600px;
+   margin: 10px auto;
+   width: 500px;
    height: 50px;
-   font-size: 20px;
-
+   font-size: 18px;
  }
 
  /* .container-projects a{
@@ -167,12 +170,11 @@ a {
 #contact-form {
   display: flex;
   justify-content: center;
-  background-color:#00bcd4;
   /* font-family:'Oswald', sans-serif; */
 }
 
 .container{
-  background-color: lightblue;
+  background-color: #00bcd4;
   width: 500px;
   height:640px;
   /* padding-left: 105px; */
@@ -217,8 +219,8 @@ a {
 .btn {
   display: inline-block;
   font-size: 18px;
-  color: #fff;
-  background: lightslategray;
+  color: black;
+  background: white;
   padding: 13px 20px;
   border: none;
   cursor: pointer;
@@ -226,13 +228,9 @@ a {
 }
 
 .btn:hover {
-  background:#00bcd4;
-  color: #333;
+  background:lightslategray;
+  color: white;
 }
-
-
-
-
 
 
 /* -----Home----- */
@@ -241,9 +239,15 @@ a {
 
 
 #home-container h2 {
-  font-family:'Oswald', sans-serif;
+  /* font-family:'Oswald', sans-serif; */
   font-size:70px; letter-spacing:10px; text-align:center;
-  color:black; font-weight:400; 
+  color:black;  
+  z-index:10;
+}
+#home-container .welcome{
+   font-family:'Oswald', sans-serif;
+  font-size:50px; letter-spacing:5px; text-align:center;
+  color:black;  
   z-index:10;
 }
 
@@ -252,20 +256,22 @@ a {
   font-weight:400;
   font-size:30px; 
   line-height:28px;
+  padding: 30px;
 }
 
 /* Home Section - about */
 #home-container .about {
+  display: flex;
   background: white;
   padding: 60px;
-  width:820px; margin:0 auto;
+  width:1000px; 
+  margin:0 auto;
   text-align:justify;
-  align-self: flex-start;
 }
 
 .about img{
   height: 300px;
-  margin-left: 280px;
+  align-self: center;
 }
 
 /* Home Section - hero-container*/
@@ -284,12 +290,6 @@ div.transbox{
   border: 1px solid black;
   opacity: .7;
 }
-
-/* Home Extras */
-#home-container .line-break {
-  border-bottom:1px solid black;
-  width: 150px; margin:0 auto;
-  }
 
 
 
