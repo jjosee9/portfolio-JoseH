@@ -14,10 +14,6 @@ a {
   overflow: auto;
   width: 100%;
 }
-/* 
-#navbar a{   /* nav link text color */
-  /* color: #fff; 
-} */
 
  #navbar .logo {    /*this is for the logo */
   float: left;
@@ -249,7 +245,6 @@ a {
   font-size:70px; letter-spacing:10px; text-align:center;
   color:black; font-weight:400; 
   z-index:10;
-  
 }
 
 #home-container p {
