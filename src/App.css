@@ -122,6 +122,7 @@ a {
  .container-projects img{
    width: 250px;
    padding-top: 60px;
+   height: 150px;
  }
 
  .container-projects h2{

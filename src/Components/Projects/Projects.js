@@ -7,6 +7,9 @@ import responsiveNavBar from '../../Images/responsive-navbar.png';
 import gitHubLocator from '../../Images/github-locator.png';
 import toDoList from '../../Images/to-do-list.png';
 import ticTacToe from '../../Images/tictactoe.png';
+import pokemon from '../../Images/pokemon.png';
+import weather from '../../Images/weather.png';
+import mernExerciseTracker from '../../Images/mern-exercise-tracker.png';
 
 const Projects = () => {
     return (
@@ -48,23 +51,17 @@ const Projects = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://responsive-navbar-joseh.netlify.app/"><button className="projects-btn">View</button></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/Responsive-Navbar"><button className="projects-btn">Github</button></a>
                 </div>
-                {/* <div>
-                    <img src={gateway} alt="gateway revised" />
-                    <h2>Gateway Project</h2>
-                    <p>This is my first project created by me for the admission into Road to Hire</p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://gatewayprojectjoseh.netlify.app/" class="nav-link" >View</a>
-                </div> */}
                 <div>
-                    <img src={gateway} alt="Pokemon app" />
+                    <img src={pokemon} alt="Pokemon app" />
                     <h2>Pokemon Inquirier App</h2>
-                    <p>This will be the pokemon app</p>
+                    <p>Pokemon app suing React Hooks</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://git-hub-cards-joseh.netlify.app/"><button className="projects-btn">View</button></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/git-hub-cards"><button className="projects-btn">Github</button></a>
                 </div>
                 <div>
-                    <img src={gateway} alt="weather app" />
+                    <img src={weather} alt="weather app" />
                     <h2>Weather App</h2>
-                    <p>This will be the weather app</p>
+                    <p>Weather App that checks weather in a city using React.Js</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://git-hub-cards-joseh.netlify.app/"><button className="projects-btn">View</button></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/git-hub-cards"><button className="projects-btn">Github</button></a>
                     
@@ -87,6 +84,13 @@ const Projects = () => {
                     <img src={ticTacToe} alt="Tic Tac Toe" />
                     <h2>Tic-Tac-Toe Game</h2>
                     <p>A fun React app creating a fun Tic-Tac-Toe game</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://tic-tac-toe-gamejose.netlify.app/"><button className="projects-btn">View</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/tic-tac-toe-game"><button className="projects-btn">Github</button></a>
+                </div>
+                <div>
+                    <img src={mernExerciseTracker} alt="Exercise Tracker" />
+                    <h2>Exercise Tracker-MERN</h2>
+                    <p>Exercise tracker app created using MERN (MongoDB, Express, React, and Node)</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://tic-tac-toe-gamejose.netlify.app/"><button className="projects-btn">View</button></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/tic-tac-toe-game"><button className="projects-btn">Github</button></a>
                 </div>
