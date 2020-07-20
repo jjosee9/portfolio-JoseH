@@ -8,7 +8,7 @@ import gitHubLocator from '../../Images/github-locator.png';
 import toDoList from '../../Images/to-do-list.png';
 import ticTacToe from '../../Images/tictactoe.png';
 import pokemon from '../../Images/pokemon.png';
-import weather from '../../Images/weather.png';
+import weather from '../../Images/weather-app.png';
 import mernExerciseTracker from '../../Images/mern-exercise-tracker.png';
 
 const Projects = () => {
@@ -62,8 +62,8 @@ const Projects = () => {
                     <img src={weather} alt="weather app" />
                     <h2>Weather App</h2>
                     <p>Weather App that checks weather in a city using React.Js</p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://git-hub-cards-joseh.netlify.app/"><button className="projects-btn">View</button></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/git-hub-cards"><button className="projects-btn">Github</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://weather-react-appjoseh.netlify.app/"><button className="projects-btn">View</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/weather-react-app"><button className="projects-btn">Github</button></a>
                     
                 </div>
                 <div>
@@ -92,7 +92,7 @@ const Projects = () => {
                     <h2>Exercise Tracker-MERN</h2>
                     <p>Exercise tracker app created using MERN (MongoDB, Express, React, and Node)</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://tic-tac-toe-gamejose.netlify.app/"><button className="projects-btn">View</button></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/tic-tac-toe-game"><button className="projects-btn">Github</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/MERN-exercise-tracker-app"><button className="projects-btn">Github</button></a>
                 </div>
             </div>
         </div>
