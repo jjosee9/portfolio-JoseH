@@ -91,7 +91,7 @@ const Projects = () => {
                     <img src={mernExerciseTracker} alt="Exercise Tracker" />
                     <h2>Exercise Tracker-MERN</h2>
                     <p>Exercise tracker app created using MERN (MongoDB, Express, React, and Node)</p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://tic-tac-toe-gamejose.netlify.app/"><button className="projects-btn">View</button></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://mern-exercise-tracker-app-joseh.netlify.app/"><button className="projects-btn">View</button></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/jjosee9/MERN-exercise-tracker-app"><button className="projects-btn">Github</button></a>
                 </div>
             </div>

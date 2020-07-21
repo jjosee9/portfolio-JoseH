@@ -20,13 +20,13 @@ const Home = () => {
                     <div class="about">
                         <img src={joseh} alt="profile" />
                         <p>I am a passionate recent graduate of the intense 6 month Road to Hire program.
-                           Through Road to Hire I have aquired both technical and professional skills. During my journey 
-                           in Road to Hire I was guided by awesome life and tech mentors.
+                        Through Road to Hire I have aquired both technical and professional skills. During my journey
+                        in Road to Hire I was guided by awesome life and tech mentors.
                         <br></br>
-                        <br></br>
+                            <br></br>
                             Front end skills: HMTL, CSS, Javascript, React.Js
                             <br></br>
-                            Back end skills: Node.Js, MySQL, and MongoDB 
+                            Back end skills: Node.Js, MySQL, and MongoDB
                         </p>
                     </div>
                 </section>
