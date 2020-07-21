@@ -26,7 +26,7 @@ const Home = () => {
                         <br></br>
                             Front end skills: HMTL, CSS, Javascript, React.Js
                             <br></br>
-                            Back end Skills: Node.Js, MySQL, and MongoDB 
+                            Back end skills: Node.Js, MySQL, and MongoDB 
                         </p>
                     </div>
                 </section>
