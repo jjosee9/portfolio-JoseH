@@ -172,8 +172,7 @@ a {
    color:white;
    background-color:lightgray ;
  }
- /* Contact Page */
-
+ /****** Contact Page *******/
 #contact-form {
   display: flex;
   justify-content:center;  /*center on from left/right*/

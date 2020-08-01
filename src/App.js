@@ -17,7 +17,7 @@ function App() {
         <NavBar />
         <Switch>   {/* A <Switch> looks through its children <Route>s and renders the first one that matches the current URL. */}
           <Route path="/" exact><Home /></Route>
-          <Route path="/projects"  ><Projects /></Route> {/*does the same as line after */}
+          <Route path="/projects"  ><Projects /></Route> 
           <Route path="/resume"><Resume /></Route>
           <Route path="/contact"><Contact /></Route>
         </Switch>
